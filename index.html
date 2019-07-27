@@ -1,63 +1,83 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-<title>가족소개</title>
-<meta charset="ulf-8">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144205010-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+   <style>
+       img{width: 120px;float:left;padding-left:20px; padding-bottom:10x
+       }
+    img{width: 120px;float:right;padding-right:20px; padding-bottom:10x
+       }
+    .container{display: flex;flex-direction: column}
+       
+    header{border-bottom: 1px solid green;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 40px;color: red;
+              
+       }
+       
+    footer{border-top: 1px solid green;
+        padding: 20px;
+        text-align: center}
+       
+    .content{display: flex;}
+       
+    .content nav{border-right:1px solid green; }
+       
+    .content aside{border-left:1px solid green;
+       padding-left: 10px;
+       padding-top: 10px}
+       
+    nav,aside{flex-basis: 150px;
+       flex-shrink: 0;}
+       
+    main{padding: 10px;
+       column-fill: auto}
+       
+   </style>   
+  </head>
+ <body>
+   <div class="container">
+    <header>
+     <img src="logo.jpg" alt="logo">
+     <img src="cap.jpg" alt="">
+      Damascus Coffee  
+    </header>
+    <section class="content">
+        
+            <nav>
+               <ul>
+                <li><a href="drink_coffee.jpg"> Coffee</a></li>
+                <li><a href="drink_latte.jpg">Latte</a></li>
+                <li><a href="drink_chilled.jpg">Chilled Drink</a></li>
+                <li><a href="others.jpg"> Others</a></li>
+                <li><a href="lunch1.jpg"> Sandwich</a></li>
+                <li><a href="lunch2.jpg"> Salad</a></li>
+                <li><a href="catering.jpg"> Catering</a></li>
+               </ul>
+            </nav>
+            <main>
+                
+             <p> Most people think to get a fast cup of coffee you have to settle for fast-food coffee... or worse...convenience store coffee. </p>
+                
+              <p>To get an average cup of coffee you have to stand in line for 20 minutes or idle in your car spitting out toxic emissions every morning. </p>  
+                
+              <p> At Damascus Coffee we think the only thing that should be double doubled in your coffee is shots of world class espresso! 
+                </p> 
+              <p> At Damascus Coffee we serve really good coffee, really fast. Heck we even know your name and your favorite drink! We're the original coffee house in Riverview serving all your favorite premium and organic fair trade coffees, fruit smoothies and specialty teas at lightning speed. </p> 
+                
+              <p>So when you're on the go come by and take a load off your feet and your mind. No antacids necesarry here, just fabulous coffee fast.</p>  
+            </main>
+            <aside>AD</aside>
+            
+      </section>
+    <footer>
+       710 Coverdale Road, Riverview, New Brunswick, Canada <br>
+       (506)855-4646
+    </footer>  
+  </div> 
+</body> 
 
-  gtag('config', 'UA-144205010-1');
-</script>
 
-</head>
-
-<body>
-
-
-<h1>가족 소개</h1>
- 우리 <strong>가족</strong>을 소개 합니다<br><br><br>
- <img src="p1.jpg"width="300"alt="혜원졸업식">
-<p>
-<a href="여름휴가.mov"target="_blank"title="여름휴가">여름휴가</a>
-</p>
-<ol>
-  <li><a href="index.html"target="_blank"title="아빠">이상배</a></li>
-  <li><a href="1.html"target="_blank"title="엄마">이정란</a></li>
-  <li><a href="2.html"target="_blank"title="큰딸">이지원</a></li>
-  <li><a href="3.html"target="_blank"title="작은딸">이혜원</a></li>
-</ol>
-<ul>
-  <li>커피샾에서 홀을 운영하고 있음</li>
-  <li>커피샾에서 주방을 운영하고 있음</li>
-  <li>석사 과정을 공부하고 있음</li>
-  <li>코딩을 공부하고 있음</li>
-</ul>
-<p>
-  <div id="dihsqus_thread"></div>
-  <script>
-
-  /**
-  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-  /*
-  var disqus_config = function () {
-  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-  };
-  */
-  (function() { // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script');
-  s.src = 'https://sblee98.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-</p>
-</body>
+    
 </html>
